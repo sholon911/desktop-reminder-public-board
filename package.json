@@ -1,0 +1,15 @@
+{
+  "name": "desktop-reminder-public-board-tauri",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "tauri": "tauri",
+    "dev": "tauri dev",
+    "build": "cargo build --release --manifest-path src-tauri/Cargo.toml",
+    "build:installer": "tauri build --bundles nsis"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.0.0"
+  }
+}

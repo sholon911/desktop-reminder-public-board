@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+src-tauri/target/
+release*/
+
+# Local runtime data
+data/
+**/data/
+*.log
+startup-error.log
+
+# Packaged binaries
+*.exe
+*.msi
+*.zip
+*.7z
+*.cab
+
+# Local editor/system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local machine config
+.env
+.env.*
+.cargo/
+src-tauri/.cargo/
