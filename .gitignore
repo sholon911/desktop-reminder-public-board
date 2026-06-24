@@ -20,6 +20,13 @@ startup-error.log
 *.7z
 *.cab
 
+# Public download files shown on GitHub
+!downloads/
+!downloads/*.exe
+!downloads/*.zip
+!downloads/*.txt
+!downloads/*.md
+
 # Local editor/system files
 .DS_Store
 Thumbs.db
