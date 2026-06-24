@@ -3,6 +3,8 @@
 桌面提醒公共栏是一款 Windows 本地桌面待办、提醒、公告通知和交接班工具。它适合前台、办公室值班、店铺员工、家庭成员、宿舍或共享电脑等场景，目标是做一个功能单一、无广告、无账号、无云同步、完全本地保存的小工具。
 
 当前版本使用 Tauri 2 + Rust + HTML/CSS/JavaScript 开发，数据默认保存在本机，不需要登录，也不会主动上传到网络。
+<img width="386" height="516" alt="image" src="https://github.com/user-attachments/assets/971469d8-536c-42ba-96cf-19c455f0b824" />
+
 
 ## 下载使用
 
